@@ -1,0 +1,16 @@
+{
+  "name": "ytmp3-telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram Bot untuk download MP3 dari YouTube via Vercel Serverless",
+  "main": "api/bot.js",
+  "scripts": {
+    "start": "node api/bot.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "telegraf": "^4.15.3"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
